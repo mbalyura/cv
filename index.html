@@ -9,23 +9,26 @@
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
+  <link rel="preload" href="./fonts/FiraGO-Bold.latin.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/FiraGO-SemiBold.latin.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/FiraGO-Regular.shared.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/FiraGO-Medium.latin.woff2" as="font" crossorigin="anonymous">
   <link href="./build.css" rel="stylesheet">
   <title>Maxim Balyura — Resume</title>
 </head>
 
 <body>
-  <main class="font-firago hyphens-manual">
+  <main class="font-firago hyphens-manual bg-gray-400 min-h-screen">
 
     <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-a4 md:max-w-a4 md:h-a4 xsm:p-8 sm:p-9 md:p-16 bg-white">
+    <div class="p-6 mx-auto page max-w-2xl print:max-w-a4 print:h-a4 md:max-w-a4 md:h-a4 xsm:p-8 sm:p-9 md:p-16 bg-white shadow-md print:shadow-none">
 
       <!-- Name -->
       <header class="flex items-center mb-8 md:mb-11">
-        <div   class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
-          style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
-          <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">M</div>
-          <div class="text-center initial">Б</div>
+        <div class="initials-container mr-5 text-base leading-none text-white bg-gray-700 bg-gradient-to-bl font-medium print:bg-black px-2 py-1.5">
+          <div class="initial text-left pb-0.5 w-8">M</div>
+          <div class="text-right initial">B</div>
         </div>
         <h1 class="text-2xl font-semibold text-gray-750 pb-px">
           Maxim Balyura
@@ -38,7 +41,6 @@
 
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
             <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
@@ -48,17 +50,17 @@
             <section class="mb-4.5 break-inside-avoid">
               <header>
                 <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Junior (intern) front-end developer
+                  Junior front-end developer
                 </h3>
                 <p class="leading-normal text-md text-gray-650">
-                  looking for a job
+                  Looking for job offers
                 </p>
               </header>
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
                 I am passionate beginner JavaScript-developer.
-                Know modern DOM-api, asynchronous programming, the basic principles of OOP, basic patterns (MVC).
-                I use actual tools to configure the environment and build the project, can work with version control system, CI/CD tools.
-                I have an understanding of the networks and protocols (http, websockets).
+                Know modern DOM-api, the basic principles of OOP, basic patterns (MVC).
+                Use actual tools to configure the environment and build the project, can work with version control system, CI/CD tools.
+                I have an understanding how networks and protocols work (http, websockets).
                 Prefer a declarative/functional style.
                 Also interested in back-end development on PHP, Node.js.
                 My goal is to become a full-stack developer.
@@ -71,7 +73,6 @@
 
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
             <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
@@ -90,7 +91,7 @@
               <ul class="">
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Worked with Wordpress, Opencart, Modx.
+                  JS, CSS, PHP development, worked with Wordpress, OpenСart, Modx.
                 </li>
               </ul>
             </section>
@@ -115,7 +116,7 @@
               </li>
               <li class="mt-2.1 text-md text-gray-700 leading-normal">
                 <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Developed and maintain a store website with the Opencart 3 engine
+                Developed and maintain a company website with the OpenСart 3 engine.
               </li>
             </ul>
           </section>
@@ -146,7 +147,6 @@
 
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
             <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
@@ -181,7 +181,6 @@
 
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
             <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
@@ -217,7 +216,6 @@
 
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
             <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
@@ -233,7 +231,7 @@
                   </a>
                 </h3>
                 <p class="leading-normal text-md text-gray-650">
-                  React/Redux Fastify Pug Bootstrap Axios Formik i18next
+                  React/Redux, Fastify, Pug, Bootstrap, Axios, Formik, i18next
                 </p>
               </header>
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
@@ -253,7 +251,7 @@
                 </a>
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                Bootstrap 4, Axios, pure DOM-api, Yup, Webpack
+                Bootstrap 4, pure DOM-api, Promices, Yup, Webpack
               </p>
             </header>
             <p class="mt-2.1 text-md text-gray-700 leading-normal">
@@ -264,14 +262,14 @@
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                <a href="https://opencartforum.com/files/file/8663-prostoe-uvedomlenie-v-shapke/?tab=reviews" class="group">
-                  Alert module for OpenCart
+                <a href="https://OpenСartforum.com/files/file/8663-prostoe-uvedomlenie-v-shapke/?tab=reviews" class="group">
+                  Alert module for OpenСart
                   <span
                     class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                 </a>
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                PHP, jQuery, OpenCart
+                PHP, jQuery, OpenСart
               </p>
             </header>
             <p class="mt-2.1 text-md text-gray-700 leading-normal">
@@ -283,7 +281,6 @@
 
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
             <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
@@ -300,13 +297,13 @@
                 </p>
               </header>
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Pure function, higher-order functions, inheritance, this, promises, async/await.
+                Pure function, higher-order functions, inheritance, this, asynchronous programming.
               </p>
               <div class="my-3.2 last:pb-1.5">
                 <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    ES6
+                    ES6+
                   </li>
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
@@ -315,10 +312,6 @@
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     Redux
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Functional Programming
                   </li>
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
@@ -332,31 +325,13 @@
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     Babel
                   </li>
-                </ul>
-              </div>
-            </section>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  PHP
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Beginner Level
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Basic syntax, MVC, OOP
-              </p>
-              <div class="my-3.2 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    OpenCart
+                    Eslint
                   </li>
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    WordPress
+                    Jest
                   </li>
                 </ul>
               </div>
@@ -372,7 +347,7 @@
                 </p>
               </header>
               <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Basic syntax, MVC, OOP
+                Semantic markup, flex, adaptive/responsive design.
               </p>
               <div class="my-3.2 last:pb-1.5">
                 <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
@@ -399,6 +374,33 @@
                 </ul>
               </div>
             </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  PHP
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Beginner Level
+                </p>
+              </header>
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                Basic syntax, MVC, OOP
+              </p>
+              <div class="my-3.2 last:pb-1.5">
+                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    OpenСart
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    WordPress
+                  </li>
+                </ul>
+              </div>
+            </section>
+
           </div>
 
           <section class="mb-4.5 break-inside-avoid">
@@ -413,16 +415,25 @@
                   Git
                 </li>
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Linux
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Bash
                 </li>
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Webpack
                 </li>
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  REST
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   CI/CD
                 </li>
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   LAMP
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  SQL
                 </li>
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Photoshop
@@ -435,7 +446,6 @@
 
         <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
             <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
@@ -445,14 +455,14 @@
             <section class="mb-4.5 break-inside-avoid">
               <ul class="list-inside pr-7">
                 <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//mbalyura.com" class="group">
-                    mbalyura.com
+                  <a href="//github.com/mbalyura" class="group">
+                    github.com/mbalyura
                     <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                   </a>
                 </li>
                 <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//github.com/mbalyura" class="group">
-                    github.com/mbalyura
+                  <a href="//www.weblancer.net/users/f1del/" class="group">
+                    weblancer.net/users/f1del
                     <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                   </a>
                 </li>
@@ -463,7 +473,7 @@
                   m.balyura@gmail.com
                 </li>
                 <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  (+7) 978 764 73 99
+                  +7 978 764 73 99
                 </li>
               </ul>
             </section>
